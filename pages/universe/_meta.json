@@ -1,0 +1,30 @@
+{
+  "index": "Getting Started",
+  "beginner": "Beginner's Guide",
+  "glossary": "Glossary",
+  "-- Coming Soon": {
+    "type": "separator",
+    "title": "Coming Soon"
+  },
+  "titan3": "Titan 3",
+  "-- Items": {
+    "type": "separator",
+    "title": "Items"
+  },
+  "-- Progression": {
+    "type": "separator",
+    "title": "Progression"
+  },
+  "-- Events": {
+    "type": "separator",
+    "title": "Events"
+  },
+  "-- Games": {
+    "type": "separator",
+    "title": "Games"
+  },
+  "-- History": {
+    "type": "separator",
+    "title": "History"
+  }
+}

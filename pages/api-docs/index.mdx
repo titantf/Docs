@@ -1,0 +1,37 @@
+import { Callout } from "nextra/components";
+import { Steps } from "nextra/components";
+
+# Getting Started
+
+## Usage
+
+There is a hard rate limit of 60 requests per minute for both authenticated and non-authenticated requests.
+
+<Steps>
+### Generate an API Key
+
+You can obtain an API key through the [accounts portal](https://titan.tf/settings/api).
+
+### Authentication
+
+All API endpoints are authenticated using Bearer tokens.
+
+Use your API key to generate an access token. Access tokens are valid for 1 hour and can be used to make requests to the API.
+
+### Refresh Tokens
+
+Refresh tokens are valid for 30 days and can be used to generate a new access token.
+
+</Steps>
+
+## Terms of Use
+
+1. Free for non-commercial use.
+2. Data harvesting from the API in bulk is absolutely forbidden.
+3. Applications and services using our API must explicitly state themselves as **"UNOFFICIAL"** app/services that are not directly endorsed by Titan.
+4. Abuse of APIs or services may result in the termination of your access to the API.
+5. We reserve the right to change these terms at any time without notice.
+
+## Commercial Use
+
+The API is prohibited from being used in any commercial software or services that generates more than $100 in monthly revenue. If you wish to use the API in a commercial product, please contact us at [api@titan.tf](mailto:api@titan.tf).

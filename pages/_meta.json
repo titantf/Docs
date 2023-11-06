@@ -1,15 +1,25 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden"
+  },
+  "universe": {
+    "title": "The Universe",
+    "type": "page"
+  },
+  "api-docs": {
+    "title": "API Docs",
+    "type": "page"
+  },
+  "mods": {
+    "title": "Moderation",
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Community",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://titan.tf/discord",
     "newWindow": true
   }
 }

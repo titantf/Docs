@@ -1,23 +1,50 @@
-# Nextra Docs Template 
+<h1 align="center">
+  Hang out, and have fun! 🎉
+</h1>
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Delivering a diverse range of original, custom and continuously evolving Team Fortress 2 experiences — since 2015.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+We are a constantly evolving network of custom [Team Fortress 2](https://teamfortress.com) servers available worldwide. 440K unique players from over 200 countries have played!
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+> [!WARNING]
+> This documentation is work in progress. It is estimated to be completed when Titan 3 is fully released to the public. Read more about [Titan 3](/universe/titan3).
 
-## Quick Start
+![banner](https://titan.tf/images/17.png)
 
-Click the button to clone this repository and deploy it on Vercel:
+<p align="center">
+  [Get Started](/universe) · [Blog](https://titan.tf/blog) · [Patch Notes](https://titan.tf/patches)
+</p>
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+#### ❤️ More than just another gaming community
 
-## Local Development
+There's always something for everyone. Whether you are a veteran or a beginner, you will always find something new here at Titan. The journey never stops.
 
-First, run `pnpm i` to install the dependencies.
+#### 😍 You can start playing now for free
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+Creating an account is as easy as signing in with your Steam account or joining any one of our servers. Don't worry, we do not see any of your login details. Steam only provides us your display name, avatar and Steam ID.
 
-## License
+#### ☁️ Seamless integration with cloud data save synchronization
 
-This project is licensed under the MIT License.
+While using our website with the MOTD browser in a game, a session is automatically generated for you to access the website seamlessly.
+
+And when you update your loadout through the browser, the changes you make on the website loadout are automatically reflected in the game, instantly.
+
+#### 📂 Download and install our DLC to up your game
+
+Our custom content is made entirely optional for all players. No automatic downloads of any content for custom items when you connect to a game. You can opt-in and enjoy the wide variety of content we offer by joining the content distributor server.
+
+## Contributing
+
+If you would like to contribute changes to this library of information, [create a fork](https://github.com/titantf/Docs/fork) on our GitHub, edit on your fork and make a pull request of your changes, or create an [issue](https://github.com/titantf/Docs/issues/new). We are always open to expand our documentation and add new features.
+
+Refer to this [guide](https://nextra.site/docs/guide) if you need help on formatting.
+
+### Local Development
+
+Run `pnpm i` to install the dependencies.
+
+Run `pnpm dev` to start the development server and visit localhost:3000.
+
+## Community
+
+Follow [@titan_tf](https://titan.tf/twitter) on X for regular updates & feel free to join our [Discord server](https://titan.tf/discord).
