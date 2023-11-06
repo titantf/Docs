@@ -1,30 +1,50 @@
 {
   "index": "Getting Started",
-  "beginner": "Beginner's Guide",
+  "beginner-guide": "Beginner's Guide",
   "glossary": "Glossary",
+  "custom-content": "Custom Content",
   "-- Coming Soon": {
     "type": "separator",
     "title": "Coming Soon"
   },
   "titan3": "Titan 3",
+  "-- Play": {
+    "type": "separator",
+    "title": "Play"
+  },
+  "supplies": "Supplies",
+  "loot": "Loot",
+  "commandsloot": "Commands",
+  "-- Currencies": {
+    "type": "separator",
+    "title": "Currencies"
+  },
+  "pieces": "Pieces",
+  "gems": "Gems",
+  "lucky-tickets": "Lucky Tickets",
   "-- Items": {
     "type": "separator",
     "title": "Items"
   },
+  "shop": "Shop",
+  "inventory": "Inventory",
+  "loadout": "Loadout",
+  "market": "Trading Market",
   "-- Progression": {
     "type": "separator",
     "title": "Progression"
+  },
+  "-- Contracts": {
+    "type": "separator",
+    "title": "Contracts"
   },
   "-- Events": {
     "type": "separator",
     "title": "Events"
   },
+  "seasonal-events": "Seasonal Events",
   "-- Games": {
     "type": "separator",
     "title": "Games"
-  },
-  "-- History": {
-    "type": "separator",
-    "title": "History"
   }
 }
