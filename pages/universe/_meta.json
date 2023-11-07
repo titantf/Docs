@@ -3,10 +3,12 @@
   "beginner-guide": "Beginner's Guide",
   "glossary": "Glossary",
   "custom-content": "Custom Content",
+  "plus": "Plus",
   "-- Coming Soon": {
     "type": "separator",
     "title": "Coming Soon"
   },
+  "hub": "Hub",
   "titan3": "Titan 3",
   "-- Play": {
     "type": "separator",
@@ -29,7 +31,7 @@
   "shop": "Shop",
   "inventory": "Inventory",
   "loadout": "Loadout",
-  "market": "Trading Market",
+  "market": "Marketplace",
   "-- Progression": {
     "type": "separator",
     "title": "Progression"

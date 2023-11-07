@@ -4,7 +4,9 @@
 
 Delivering a diverse range of original, custom and continuously evolving Team Fortress 2 experiences — since 2015.
 
-We are a constantly evolving network of custom [Team Fortress 2](https://teamfortress.com) servers available worldwide. 440K unique players from over 200 countries have played!
+We are a constantly evolving network of custom [Team Fortress 2](https://teamfortress.com) community servers available worldwide. 440K unique players from over 200 countries have played!
+
+Team Fortress 2 is one of the most popular online action games of all time, a multiplayer first-person shooter game developed and published by Valve Corporation.
 
 > [!WARNING]
 > This documentation is work in progress. It is estimated to be completed when Titan 3 is fully released to the public. Read more about [Titan 3](/universe/titan3).
