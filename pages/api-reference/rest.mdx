@@ -1,0 +1,56 @@
+import { Callout } from "nextra/components";
+import { Steps } from "nextra/components";
+
+# Getting Started
+
+## What is REST?
+
+REST stands for Representational State Transfer. It relies on a stateless, client-server, cacheable communications protocol -- and in virtually all cases, the HTTP protocol is used. REST is an architecture style for designing networked applications.
+
+If you only need to access publicly available data, the REST API is the best choice.
+
+## Authentication
+
+<Steps>
+### Generate an API Key
+
+You can obtain an API key through the [developer portal](https://titan.tf/developer/api). You will need to provide a name, description and expiry date for this key.
+
+### Authenticate with Access Tokens
+
+All API endpoints are authenticated using Bearer tokens. Use your API key to generate an access token and refresh token.
+
+Only the access token will be returned to you. Access tokens are valid for 5 minutes and can be used to make requests to the API.
+
+<Callout type="warning">
+
+The refresh token is used to generate new access tokens. It is
+stored encrypted on the server-side and expires on the expiry date
+specified for the API key.
+
+It is not possible to modify the expiry date unless a new API key
+is generated.
+
+</Callout>
+
+### Renewing Access Tokens
+
+Access tokens can be renewed using the old access token at this endpoint `https://api.titan.tf/api/v1/auth/renew-token`.
+
+The API will use the matching refresh token to generate a new access token.
+
+</Steps>
+
+## Examples
+
+### Authentication
+
+```
+
+```
+
+### Renewing Access Token
+
+```
+
+```

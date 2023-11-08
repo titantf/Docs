@@ -1,0 +1,44 @@
+import { Callout } from "nextra/components";
+import { Steps } from "nextra/components";
+
+# Getting Started
+
+## What is OAuth?
+
+OAuth allows applications to retrieve data from titan.tf on behalf of a user. For example, you can use OAuth to allow users to log in to your website using their titan.tf account without having to ask for their password.
+
+See [Scopes](/api-reference/oauth-scopes) for more information on what data you can access. If you only need to access publicly available data, you do not need OAuth. Use the REST API instead.
+
+<Callout type="warning">
+  The OAuth API is not currently available for public use. If you have any
+  questions or feedback, please contact us on Discord.
+</Callout>
+
+## Authentication
+
+<Steps>
+### Create a OAuth App
+
+Create an OAuth app on the [developer portal](https://titan.tf/developer/oauth). You will need to provide a name, description, and redirect URL for your app. The redirect URL is where users will be sent after they authorize your app.
+
+### Get the Client ID and Client Secret
+
+After creating your app, you will be given a Client ID and Client Secret. You will need these to authenticate your app.
+
+### Redirect the user to the authorization URL
+
+To authorize your app, you must redirect the user to the authorization URL. The authorization URL is `https://titan.tf/api/v1/oauth/authorize` with the following query parameters:
+
+- `client_id` - The Client ID of your app
+- `redirect_uri` - The redirect URL of your app
+- `response_type` - Must be `code`
+
+</Steps>
+
+## Examples
+
+### Redirecting the user
+
+```
+
+```

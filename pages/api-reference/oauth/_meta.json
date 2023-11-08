@@ -1,0 +1,5 @@
+{
+  "scopes": "Scopes",
+  "authorization-code": "Authorization Code Grant",
+  "implicit": "Implicit Grant"
+}

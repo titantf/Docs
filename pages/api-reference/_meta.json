@@ -1,7 +1,9 @@
 {
-  "index": "Getting Started",
-  "-- Appendices": {
+  "index": "Introduction",
+  "-- API Reference": {
     "type": "separator",
-    "title": "Contracts"
-  }
+    "title": "API Reference"
+  },
+  "rest": "REST",
+  "oauth": "OAuth"
 }

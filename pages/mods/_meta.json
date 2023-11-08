@@ -1,7 +1,15 @@
 {
   "index": "Getting Started",
-  "-- Appendices": {
+  "-- Guidelines": {
     "type": "separator",
-    "title": "Appendices"
+    "title": "Guidelines"
+  },
+  "-- Game Servers": {
+    "type": "separator",
+    "title": "Game Servers"
+  },
+  "-- Website": {
+    "type": "separator",
+    "title": "Website"
   }
 }

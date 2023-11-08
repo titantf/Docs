@@ -16,10 +16,9 @@
     "title": "Moderation",
     "type": "page"
   },
-  "contact": {
-    "title": "Community",
+  "home": {
+    "title": "Home",
     "type": "page",
-    "href": "https://titan.tf/discord",
-    "newWindow": true
+    "href": "https://titan.tf"
   }
 }
