@@ -1,22 +1,23 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
+import Image from "next/image";
+
 const config: DocsThemeConfig = {
-  logo: <span>titan.tf Docs</span>,
-  // logo: () => {
-  //   const title = "titan.tf";
-  //   return (
-  //     <>
-  //       <Logo height={12} />
-  //       <span
-  //         className="mx-2 font-extrabold hidden md:inline select-none"
-  //         title={`titan.tf: ${title}`}
-  //       >
-  //         titan.tf
-  //       </span>
-  //     </>
-  //   );
-  // },
+  logo: () => {
+    const title = "titan.tf";
+    return (
+      <>
+        <Image src="/assets/logos/logo.svg" alt="logo" width="32" height="32" />
+        <span
+          className="hidden md:inline select-none"
+          title={`titan.tf: ${title}`}
+        >
+          Titan
+        </span>
+      </>
+    );
+  },
   project: {
     link: "https://github.com/titantf/docs",
   },
@@ -30,7 +31,7 @@ const config: DocsThemeConfig = {
     };
   },
   footer: {
-    text: "©️ titan.tf 2023.",
+    text: `©️ titan.tf ${new Date().getFullYear()}.`,
   },
 };
 
