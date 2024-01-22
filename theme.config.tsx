@@ -10,10 +10,10 @@ const config: DocsThemeConfig = {
       <>
         <Image src="/assets/logos/logo.svg" alt="logo" width="32" height="32" />
         <span
-          className="hidden md:inline select-none"
+          className="font-extrabold hidden md:inline select-none"
           title={`titan.tf: ${title}`}
         >
-          Titan
+          titan.tf
         </span>
       </>
     );
